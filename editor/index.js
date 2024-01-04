@@ -1,4 +1,4 @@
-import { encode, decode, generateSVG } from '../utils'
+import { encode, decode, generateSVG } from '../utils/index.js'
 
 export default class Editor {
   constructor() {

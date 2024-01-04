@@ -1,0 +1,9 @@
+{
+  "name": "dpi",
+  "version": "1.0.0",
+  "description": "Dynamic Pixel Icons",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

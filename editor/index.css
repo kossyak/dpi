@@ -41,8 +41,12 @@ header {
   margin: 20px 0;
 }
 .description {
-  margin: 30px 0;
+  margin: 0 0 40px;
   color: var(--dark-gray);
+}
+.description a {
+  color: initial;
+  text-decoration: underline;
 }
 .logo {
   display: flex;

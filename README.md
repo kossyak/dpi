@@ -1,10 +1,11 @@
-# dpi
-Dynamic Pixel Icons
+<img src="https://github.com/kossyak/dpi/assets/68551616/15202178-6e76-41a9-9963-68c270c126ad" width="100"/>
 
-1. Open dpi/data.js file 
+## Dynamic Pixel Icons
+
+1. Open data.js file 
 2. Make sure there is no entry with this code yet
 3. Click "Edit this File"
-4. Add a new entry at the end of the array.
+4. Add a new entry at the end of the array
 5. Click "Commit changes" → Commit directly to the main branch → "Commit changes"
 
 ```js

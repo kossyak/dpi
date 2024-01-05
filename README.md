@@ -7,10 +7,10 @@
 ```js
 import dpi from './bundler/dpi.js'
 /**
- * @param {(string)} icon code.
- * @param {(number)} [size=20]  icon size in pixels (optional param).
- * @return {string} svg code
- */
+* @param { string } icon code.
+* @param { number } [size=20]  icon size in pixels (optional param).
+* @return { string } svg code
+*/
 const svgCode = dpi('0010000100111110010000100', 16)
 ```
 

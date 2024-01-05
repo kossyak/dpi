@@ -1,0 +1,3 @@
+function e(e,t){return function(e,t=20){let l=t/5,r="";for(let t=0;t<e.length;t++){let i=t%5*l,n=Math.floor(t/5)*l;e[t]&&(r+=`<rect x="${i}" y="${n}" width="${l}" height="${l}" />`)}return`<svg fill="#2e2e2e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" viewBox="0 0 ${t} ${t}" width="${t}" height="${t}">
+    ${r}
+  </svg>`}(e.split("").map(e=>"1"===e),t)}export{e as default};

@@ -1,5 +1,5 @@
 import data from '../data.js'
-import dpi from '../package/index.js'
+import dpi from '../package/dpi.js'
 
 export default class Collection {
   constructor(editor, favorites) {

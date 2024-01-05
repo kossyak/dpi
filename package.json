@@ -2,8 +2,22 @@
   "name": "dpi",
   "version": "1.0.0",
   "description": "Dynamic Pixel Icons",
-  "main": "index.js",
-  "scripts": {},
-  "author": "",
-  "license": "ISC"
+  "targets": {
+    "esm": {
+      "outputFormat": "esmodule",
+      "source": "./package/dpi.js",
+      "sourceMap": false,
+      "optimize": true,
+      "distDir": "./bundler",
+      "isLibrary": true
+    }
+  },
+  "scripts": {
+    "build": "parcel build --target esm"
+  },
+  "author": "Sasha Kosyak",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
 }

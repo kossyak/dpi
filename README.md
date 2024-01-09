@@ -17,11 +17,11 @@ const svgCode = dpi('0010000100111110010000100', 16)
 ## Contribution
 Please follow the instructions:
 
-1. Open data.js file 
-2. Make sure there is no entry with this code yet
-3. Click "Edit this File"
-4. Add a new entry at the end of the array
-5. Click "Commit changes" → Commit directly to the main branch → "Commit changes"
+1. Fork the repo
+2. Clone your fork
+3. Make changes to data.js file
+4. Commit the changes
+5. Send pull-request from your fork to the original repo
 
 ```js
   // data.js

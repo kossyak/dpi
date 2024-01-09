@@ -17,7 +17,7 @@ export default [
   },
   {
     code: '0000111100011110011100011',
-    keywords: 'angel'
+    keywords: 'angel, send'
   },
   {
     code: '0010000100111110010000100',

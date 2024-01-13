@@ -97,6 +97,9 @@ export default class Editor {
   setCode(binaryString) {
     localStorage.setItem('code', binaryString)
   }
+  clearCode() {
+    localStorage.removeItem('code')
+  }
   paint(x, y) {
     this.ctxPixel.fillStyle = 'black'
     this.ctxPixel.fillRect(x, y, this.s, this.s)
@@ -127,6 +130,7 @@ export default class Editor {
     this.gridState = new Array(this.w * this.h).fill(false)
     this.code.value = ''
     this.miniature.innerHTML = ''
+    this.clearCode()
   }
   updateSVG(array) {
     this.svgCode = generateSVG(array, this.s)

@@ -26,5 +26,9 @@ export default [
   {
     code: '0000010111000001110100000',
     keywords: 'settings, switcher'
+  },
+  {
+    code: '1000111111101010101001110',
+    keywords: 'dog',
   }
 ]

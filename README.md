@@ -15,7 +15,8 @@ const svgCode = dpi('0010000100111110010000100', 16)
 ```
 
 ## Contribution
-Please follow the instructions:
+
+You can add a new icon to the collection or edit existing ones.
 
 1. Fork the repo
 2. Clone your fork
@@ -32,3 +33,7 @@ Please follow the instructions:
   }
 ]
 ```
+
+> At least one keyword must be relevant to the UI context.
+
+> Please make sure that there are no icons with this code in the file.

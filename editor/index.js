@@ -84,9 +84,18 @@ export default class Editor {
         this.paint(x * this.s, y * this.s)
         this.gridState[index] = true
       }
-      this.code.value = encode(this.gridState)
+      const binaryString = encode(this.gridState)
+      this.code.value = binaryString
       this.updateSVG(this.gridState)
+      this.setCode(binaryString)
     })
+    this.display(this.getCode())
+  }
+  getCode() {
+    return localStorage.getItem('code')
+  }
+  setCode(binaryString) {
+    localStorage.setItem('code', binaryString)
   }
   paint(x, y) {
     this.ctxPixel.fillStyle = 'black'
@@ -96,6 +105,7 @@ export default class Editor {
     this.ctxPixel.clearRect(x, y, this.s, this.s)
   }
   display(binaryString) {
+    if (!binaryString) this.clear()
     this.gridState = decode(binaryString)
     if (this.gridState.length === 25) {
       for (let x = 0; x < this.w; x++) {

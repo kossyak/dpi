@@ -101,7 +101,7 @@ export default class Editor {
     localStorage.removeItem('code')
   }
   paint(x, y) {
-    this.ctxPixel.fillStyle = 'black'
+    this.ctxPixel.fillStyle = '#2e2e2e'
     this.ctxPixel.fillRect(x, y, this.s, this.s)
   }
   eraser(x, y) {

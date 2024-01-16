@@ -29,6 +29,9 @@ export default [
   },
   {
     code: '1000111111101010101001110',
-    keywords: 'dog',
-  }
+    keywords: 'dog, command'
+  },
+  {
+    code: '0001111110111100000001010',
+    keywords: 'cart, shop'
 ]

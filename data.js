@@ -34,4 +34,5 @@ export default [
   {
     code: '0001111110111100000001010',
     keywords: 'cart, shop'
+  }
 ]

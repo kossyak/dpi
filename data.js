@@ -34,5 +34,9 @@ export default [
   {
     code: '0001111110111100000001010',
     keywords: 'cart, shop'
+  },
+  {
+    code: '0000000100010101000100000',
+    keywords: 'up arrow'
   }
 ]

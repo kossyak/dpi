@@ -38,5 +38,9 @@ export default [
   {
     code: '0000000100010101000100000',
     keywords: 'up arrow'
+  },
+  {
+    code: '0000000001000101010001000',
+    keywords: 'check, mark, done'
   }
 ]

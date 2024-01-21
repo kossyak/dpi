@@ -42,5 +42,9 @@ export default [
   {
     code: '0000000001000101010001000',
     keywords: 'check, mark, done'
+  },
+  {
+    code: '1010101010101010101010101',
+    keywords: 'board, chess'
   }
 ]

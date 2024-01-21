@@ -46,5 +46,9 @@ export default [
   {
     code: '1010101010101010101010101',
     keywords: 'board, chess'
+  },
+  {
+    code: '0010001110111110010001100',
+    keywords: 'umbrella, rain, weather'
   }
 ]

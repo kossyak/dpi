@@ -24,6 +24,10 @@ export default [
     keywords: 'plus, add, new'
   },
   {
+    code: '000000000000000000000000',
+    keywords: 'white square'
+  },
+  {
     code: '0000010111000001110100000',
     keywords: 'settings, switcher'
   },

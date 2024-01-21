@@ -4,6 +4,10 @@ export default [
     keywords: 'close, cancel'
   },
   {
+    code: '1111101110001000111011111',
+    keywords: 'hourglass'
+  },
+  {
     code: '1111111111101011111101110',
     keywords: 'destroy, remove'
   },

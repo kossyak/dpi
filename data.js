@@ -54,5 +54,13 @@ export default [
   {
     code: '0010001110111110010001100',
     keywords: 'umbrella, rain, weather'
+  },
+  {
+    code: '1110010000101111000011100',
+    keywords: 'reset, back, exit'
+  },
+  {
+    code: '1110011100111010000100111',
+    keywords: 'copy'
   }
 ]

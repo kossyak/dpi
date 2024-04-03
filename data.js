@@ -62,5 +62,9 @@ export default [
   {
     code: '1110011100111010000100111',
     keywords: 'copy'
+  }, 
+  {
+    code: '0000011101100011011100000',
+    keywords: 'refresh'
   }
 ]

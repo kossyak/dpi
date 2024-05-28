@@ -71,4 +71,8 @@ export default [
     code: '0010001110111110111001010',
     keywords: 'turtle, speed'
   },
+  {
+    code: '111111111111111',
+    keywords: 'Yin Yang, opposites, addition'
+  }
 ]

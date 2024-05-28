@@ -66,5 +66,9 @@ export default [
   {
     code: '0000011101100011011100000',
     keywords: 'refresh'
-  }
+  },
+  {
+    code: '0010001110111110111001010',
+    keywords: 'turtle, mammals'
+  },
 ]

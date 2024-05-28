@@ -75,5 +75,4 @@ export default [
     code: '0010001010001000010001100',
     keywords: 'key, access'
   },
-  
 ]

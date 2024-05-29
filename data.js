@@ -75,7 +75,7 @@ export default [
     code: '0010001010001000010001100',
     keywords: 'key, access'
   },
-   {
+  {
     code: '1110010111111011010111111',
     keywords: 'city, home, travel'
   },

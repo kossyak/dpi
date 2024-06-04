@@ -87,4 +87,4 @@ export default [
     code: '1000011000111001111011111',
     keywords: 'stairs, step'
   },
-]
+] 

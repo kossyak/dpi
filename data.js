@@ -90,5 +90,13 @@ export default [
   {
     code: '0001011010000000101101000',
     keywords: 'propeller, fan, windmill'
+  },
+  {
+    code: '1011111111000001111100100',
+    keywords: 'clear'
+  },
+  {
+    code: '0111000000011100111001110',
+    keywords: 'remove, delete, garbage'
   }
 ] 

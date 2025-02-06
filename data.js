@@ -98,5 +98,9 @@ export default [
   {
     code: '0111000000011100111001110',
     keywords: 'remove, delete, garbage'
+  },
+  {
+    code: '0111010001111111111110001',
+    keywords: 'car, transport'
   }
 ] 
